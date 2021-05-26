@@ -7,31 +7,29 @@ h1 {
 }
 
 .chicken {
-	text-align: right;
+	text-align: center;
 	border: 1px solid black
 	color: #000000;
 	background-color: #b56d6d;
 }
 
 .beef {
-	text-align: right;
+	text-align: center;
 	border: 1px solid black;
 	color: #ffffff;
 	background-color: #ab1f1f;
 }
 
 .sushi {
-	text-align:right;
+	text-align: center;
 	border: 1px solid black;
 	color: #000000;
 	background-color: #d9d386;
 }
 
-section {
-  	position: relative;
-  	top: 60px
-
 div {
 	border: 1px solid black;
-	background-color: #878787;
+	background-color: #878787
+	width: 300;
+	height: 500;
 }
