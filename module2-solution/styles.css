@@ -4,17 +4,72 @@
 
 h1 {
 	text-align: center;
-	color: #000000;
 }
 
 p {
+	padding: 10px;
+	margin: 0;
+}
+
+.container {
+	border: none;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+section {
 	border: 1px solid black;
 	background-color: #878787;
-	width: 90%;
-	height: 150px;
-	margin-right: auto;
-	margin-left: auto;
+	width: 100
+	height: 200px;
 	color: black;
+	position: relative;
+	overflow: auto;
+}
+
+#chicken {
+	text-align: center;
+	border: 1px solid black
+	color: #000000;
+	background-color: #b56d6d;
+	width: 30%
+	margin-left: 70%;
+	font-family: Trebuchet MS;
+	font-size: 125%;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 5px;
+}
+
+#beef {
+	text-align: center;
+	border: 1px solid black;
+	color: #ffffff;
+	background-color: #ab1f1f;
+	width: 30%
+	margin-left: 70%;
+	font-family: Trebuchet MS;
+	font-size: 125%;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 5px;
+}
+
+#sushi {
+	text-align: center;
+	border: 1px solid black;
+	color: #000000;
+	background-color: #d9d386;
+	width: 30%
+	margin-left: 70%;
+	font-family: Trebuchet MS;
+	font-size: 125%;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 5px;
 }
 
 .row {
